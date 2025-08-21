@@ -1,0 +1,56 @@
+
+```
+# ===================================================================
+# Node.js - Noxy Project
+# ===================================================================
+
+# Dependency directories
+# These are installed automatically and should not be version controlled.
+node_modules/
+npm-debug.log
+
+# Environment variables
+# Contains sensitive information like API keys and database passwords.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+# Logs can become very large and are specific to each environment.
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+# These are generated files from your source code.
+dist/
+build/
+.next/
+out/
+
+# IDE and editor directories
+# User-specific settings that don't belong in the repo.
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System generated files
+# Annoying files created by macOS, Windows, and Linux.
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Optional test reports
+# Generated during test runs.
+coverage/
+.nyc_output/
+```
