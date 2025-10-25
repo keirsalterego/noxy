@@ -1,10 +1,17 @@
 {
+  "name": "noxy",
+  "version": "0.1.0",
+  "description": "A basic Node.js proxy server.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
   "dependencies": {
-    "axios": "^1.12.2",
-    "chalk": "^4.1.2",
-    "dotenv": "^17.2.1"
+    "axios": "^1.7.2",
+    "chalk": "5.6.2",
+    "dotenv": "17.2.3"
   },
   "devDependencies": {
-    "electron": "^38.4.0"
+    "electron": "^31.2.1"
   }
 }
