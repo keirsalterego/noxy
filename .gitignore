@@ -1,8 +1,4 @@
 
-```
-# ===================================================================
-# Node.js - Noxy Project
-# ===================================================================
 
 # Dependency directories
 # These are installed automatically and should not be version controlled.
@@ -48,7 +44,7 @@ out/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
+docs/
 # Optional test reports
 # Generated during test runs.
 coverage/
